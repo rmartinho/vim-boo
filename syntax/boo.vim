@@ -57,6 +57,7 @@ syn keyword booConditional      if elif else unless
 syn keyword booStatement        break continue return pass yield goto
 syn keyword booStatement        get set
 syn keyword booStatement        constructor destructor typeof super
+syn keyword booStatement        macro
 
 syn keyword booOperator         and in is isa in not or of cast as
 
