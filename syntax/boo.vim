@@ -57,7 +57,7 @@ syn keyword booConditional      if elif else unless
 syn keyword booStatement        break continue return pass yield goto
 syn keyword booStatement        get set
 syn keyword booStatement        constructor destructor typeof super
-syn keyword booStatement        macro match case
+syn keyword booStatement        match case
 
 syn keyword booOperator         and in is isa in not or of cast as
 
@@ -65,6 +65,7 @@ syn keyword booExceptionKWs     try except raise ensure failure
 
 syn keyword booStorage          callable class def enum do
 syn keyword booStorage          interface namespace struct
+syn keyword booStorage          macro
 
 syn keyword booTodo             WARNING TODO FIXME XXX contained
 syn match   booComment          "#.*$" contains=booTodo
